@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1024" height="1024">
+  <!-- Full-square abyssal background (matches lusitania-theme — no transparent corners) -->
+  <rect width="256" height="256" fill="#0A0D14"/>
+
+  <!-- Left bracket: same arc grammar as lusitania-theme's icon -->
+  <path d="M 88 56 Q 64 56 64 84 Q 64 108 52 128 Q 64 148 64 172 Q 64 200 88 200"
+        stroke="#7FD4D4" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+  <!-- Right bracket -->
+  <path d="M 168 56 Q 192 56 192 84 Q 192 108 204 128 Q 192 148 192 172 Q 192 200 168 200"
+        stroke="#7FD4D4" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+  <!-- Folder centred between the brackets — signals "icon theme" -->
+  <path d="M 100 102 L 124 102 L 132 112 L 156 112 L 156 158 L 100 158 Z"
+        fill="#7FD4D4"/>
+
+  <!-- Two small file slits cut into the folder body -->
+  <rect x="110" y="126" width="14" height="22" rx="1.5" fill="#0A0D14"/>
+  <rect x="132" y="126" width="14" height="22" rx="1.5" fill="#0A0D14"/>
+
+  <!-- End-of-line dot (matches the theme icon) -->
+  <circle cx="220" cy="128" r="6" fill="#7FD4D4"/>
+</svg>

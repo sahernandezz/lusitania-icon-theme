@@ -1,0 +1,50 @@
+{
+  "name": "lusitania-icon-theme",
+  "displayName": "Lusitania Icon Theme",
+  "description": "A deep-sea icon theme for VS Code & Cursor. Inspired by IntelliJ Material Icons and the Lusitania color palette — abyssal blue, teal currents, oceanic accents.",
+  "version": "1.0.0",
+  "publisher": "sahernandezz",
+  "icon": "icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "icon-theme",
+    "material",
+    "material-icons",
+    "lusitania",
+    "ocean",
+    "oceanic",
+    "abyssal",
+    "deep",
+    "intellij",
+    "file-icons",
+    "folder-icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahernandezz/lusitania-icon-theme.git"
+  },
+  "homepage": "https://github.com/sahernandezz/lusitania-icon-theme#readme",
+  "bugs": {
+    "url": "https://github.com/sahernandezz/lusitania-icon-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#0d1620",
+    "theme": "dark"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "lusitania-icons",
+        "label": "Lusitania Icons",
+        "path": "./lusitania-icon-theme.json"
+      }
+    ]
+  }
+}
